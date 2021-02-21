@@ -1,0 +1,29 @@
+<form method="post" action= "mailto:rhythm.1993@gmail.com">
+
+Name: <input type="text" size="10" max length= "40" name="name"/><br>
+
+Gender: 	<input type="radio" name="gender" value="Female" /> Female 
+	<input type="radio" name="gender" value="Male" />       Male <br />
+
+Activities: 	<input type="checkbox" name="gender" value="donation" /> Donations
+                  <input type="checkbox" name="gender" value="socialwork" />  Social work
+	<input type="checkbox" name="gender" value="swachhbharat" />  Swachh Bharat
+                 <input type="checkbox" name="gender" value="underprivileged" />   Teach the under privileged <br>
+
+Phone number:  <select multiple name = "qualification">  
+                  <option> +91 </option>
+                  <option> +92 </option>
+                 <option> +1 </option>
+                 <option> +44 </option>
+	</select> 
+<input type="text" size="10" max length= "40" name="phonenumber"/><br>
+
+Qualification:  <select multiple name = "qualification" size="3">  
+                  <option> choose one </option>
+                  <option> 10th </option>
+                 <option> 12th </option>
+               <option> Bachelors</option>
+                 <option> Student </option>
+                <option> Working</option>
+	</select>
+	<input type="submit" value="Email Myself" />
